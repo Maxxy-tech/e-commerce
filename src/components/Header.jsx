@@ -1,7 +1,7 @@
 import frame from "../assets/Frame 42.png";
 import logo from "../assets/GLAMOUR Logo (2) 3.png";
 import img from "../assets/Rectangle 65.png";
-
+import NewArrivals from '../components/NewArrivals'
 import discover from "../assets/Rectangle 67.png";
 import test1 from "../assets/Ellipse 8.png";
 import test2 from "../assets/Ellipse 12.png";
@@ -49,6 +49,8 @@ text-[#454545] uppercase text-[30px] sm:text-[60px] flex font-[600] sm:h-[90px]"
       </div>
 
       {/* new arrivals */}
+
+
       <div className="w-full  sm:h-[82px] top-[822.36px] sm:p-[19px,101px,19px,101px] sm:gap-[10px] bg-[#FFD7BE] text-center">
         <span className="w-[349px] sm:h-[83px]  ">
           <h4 className="capitalize font-serif font-[600] sm:pt-0 pt-3 text-[35px] sm:text-[55px] h-[82.5px] text-[#454545]">
@@ -56,17 +58,17 @@ text-[#454545] uppercase text-[30px] sm:text-[60px] flex font-[600] sm:h-[90px]"
           </h4>
         </span>
       </div>
-
+<NewArrivals />
       <div className="">
         <div className="sm:flex sm:flex-col-reverse sm:gap-20 sm:m-10 sm:p-4">
-          <div className="sm:w-[474.18px] mt-8 m-5 sm:mt-14 sm:ml-4 sm:h-[138px] ">
+          <div className="sm:w-[474.18px] mt-10 m-5 sm:mt-14 sm:ml-4 sm:h-[138px] ">
             {" "}
-            <h2 className="h-[69px] font-[600] capitalize text-[46px] text-[#454545] ">
+            <h2 className="h-[69px] font-[600]  capitalize text-[46px] text-[#454545] ">
               Discover the magic of beauty
             </h2>
-            <span className="mt-10">
+            <span className="">
               <p
-                className="mt-20 font-[600] text-[19.64px] text-[#454545]
+                className="mt-[40%] p-8 font-[600] text-[19.64px] text-[#454545]
 "
               >
                 Step into the world of beauty with our collection of cosmetics.

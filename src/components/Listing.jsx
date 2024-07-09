@@ -45,7 +45,7 @@ const Listing = () => {
               <h4 className="font-[600] ml-2 text-[24.81px] h-[37.21px] text-[#454545]">
                 XPRESS CONTROL MASCARA
               </h4>
-              <span className="mt-8 w-[68px] h-[37px] top-[1352.3px] left-[32.27px]">
+              <span className="mt-8 p-6 w-[68px] h-[37px] top-[1352.3px] left-[32.27px]">
                 <h5 className="font-[500] p-2 ml-2 mt-10 text-[#454545] ">
                   $7.99
                 </h5>
