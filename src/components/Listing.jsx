@@ -19,7 +19,7 @@ const Listing = () => {
           <div className="absolute ml-[20rem] mt-4">
             <div>
               <Link to="/cart">
-                <img src={cart} alt="" />
+                <img src={cart}  className="w-[100px] "alt="" />
               </Link>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Listing = () => {
               <h4 className="font-[600] ml-2 text-[24.81px] h-[37.21px] text-[#454545]">
                 NUDE BY NATURE FACE POWDER
               </h4>
-              <span className="mt-8 w-[68px] h-[37px] top-[1352.3px] left-[32.27px]">
+              <span className="mt-8 w-[68px] p-6 h-[37px] top-[1352.3px] left-[32.27px]">
                 <h5 className="font-[500] p-2 ml-2 mt-10 text-[#454545] ">
                   $89.99
                 </h5>
@@ -87,7 +87,7 @@ const Listing = () => {
               <h4 className="font-[600] ml-2 text-[24.81px] h-[37.21px] text-[#454545]">
                 LAKME FACE POWDER
               </h4>
-              <span className="mt-8 w-[68px] h-[37px] top-[1352.3px] left-[32.27px]">
+              <span className="mt-8 w-[68px] p-6 h-[37px] top-[1352.3px] left-[32.27px]">
                 <h5 className="font-[500] p-2 ml-2 mt-10 text-[#454545] ">
                   $79.99
                 </h5>
@@ -108,7 +108,7 @@ const Listing = () => {
               <h4 className="font-[600] ml-2 text-[24.81px] h-[37.21px] text-[#454545]">
                 2 4 1 Lip Gloss
               </h4>
-              <span className="mt-8 w-[68px] h-[37px] top-[1352.3px] left-[32.27px]">
+              <span className="mt-8 w-[68px] p-6 h-[37px] top-[1352.3px] left-[32.27px]">
                 <h5 className="font-[500] p-2 ml-2 mt-10 text-[#454545] ">
                   $79.99
                 </h5>

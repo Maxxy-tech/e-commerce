@@ -20,12 +20,12 @@ const Checkout = () => {
             htmlFor="fullName"
             className="block text-sm font-medium text-gray-700"
           >
-            Full Name
+        Card Holder Name
           </label>
           <input
             type="text"
-            id="fullName"
-            name="fullName"
+            id="cardholdername"
+            name="cardholdername"
             className="mt-1 p-2 block w-full border border-gray-300 rounded-md"
             placeholder="Enter your full name"
           />
@@ -36,14 +36,29 @@ const Checkout = () => {
             htmlFor="email"
             className="block text-sm font-medium text-gray-700"
           >
-            Email Address
+            Card Number
           </label>
           <input
-            type="email"
-            id="email"
-            name="email"
+            type="date"
+            id="date"
+            name="date"
             className="mt-1 p-2 block w-full border border-gray-300 rounded-md"
-            placeholder="Enter your email address"
+            placeholder="MM / YYYY"
+          />
+        </div>
+        <div className="mb-4">
+          <label
+            htmlFor="email"
+            className="block text-sm font-medium text-gray-700"
+          >
+            CVV
+          </label>
+          <input
+            type="CVV"
+            id="CVV"
+            name="CVV"
+            className="mt-1 p-2 block w-full border border-gray-300 rounded-md"
+            placeholder=""
           />
         </div>
 
